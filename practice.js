@@ -46,7 +46,7 @@
 // cityPopulations.sf = 800000;  // same as cityPopulations["sf"]
 // console.log(cityPopulations);
 
-
+// #================================
 
 // Write a method that prints out every number from 1 to 100. 
 
@@ -69,6 +69,8 @@ function oneToAHundred() {
 }
 
 oneToAHundred();
+
+// #================================
 
 // Write a method that prints out every other number from 1 to 100. (That is, 1, 3, 5, 7 … 99).
 
