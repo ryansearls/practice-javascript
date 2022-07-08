@@ -40,3 +40,12 @@
 // console.log(`My favorite colors are ${color1}, ${color2}, and ${color3}`);
 
 //-----------------------------------------------------------------------------
+
+// 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+// var name = window.prompt("What is your name?");
+// if (name !== "Santa") {
+//   console.log("You're not Santa.");
+// }
+
+//---------------------------------------------------------------------------------
