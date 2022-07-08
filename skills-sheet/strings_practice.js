@@ -52,6 +52,16 @@
 
 // 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
+// var bookTitle = "Helter Skelter";
+// var bookAuthor = "Vincent Bugliosi";
+// console.log('My favorite book is ' + bookTitle + ' and it is written by ' + bookAuthor + ".");
+
+//----------------------------------------------------------------------------------
+
+// 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the ${} operator).
+
 var bookTitle = "Helter Skelter";
 var bookAuthor = "Vincent Bugliosi";
-console.log('My favorite book is ' + bookTitle + ' and it is written by ' + bookAuthor + ".");
+console.log(`My favorite book is ${bookTitle} and is written by ${bookAuthor}.`);
+
+//-----------------------------------------------------------------------------------
