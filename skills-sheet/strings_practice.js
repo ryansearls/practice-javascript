@@ -60,8 +60,19 @@
 
 // 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the ${} operator).
 
-var bookTitle = "Helter Skelter";
-var bookAuthor = "Vincent Bugliosi";
-console.log(`My favorite book is ${bookTitle} and is written by ${bookAuthor}.`);
+// var bookTitle = "Helter Skelter";
+// var bookAuthor = "Vincent Bugliosi";
+// console.log(`My favorite book is ${bookTitle} and is written by ${bookAuthor}.`);
 
 //-----------------------------------------------------------------------------------
+
+// 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+
+// var password = window.prompt("Enter the password: ");
+// if (password === "Joshua") {
+//   console.log("Shall we play a game?");
+// } else {
+//   console.log("Access denied");
+// }
+
+//-------------------------------------------------------------------------------------
