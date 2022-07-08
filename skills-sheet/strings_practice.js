@@ -76,3 +76,12 @@
 // }
 
 //-------------------------------------------------------------------------------------
+
+// 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+// var city1 = "Denver";
+// var city2 = "New York";
+// var city3 = "Minneapolis";
+// console.log(city1 + ", " + city2 + ", and " + city3 + " are three major cities in the United States.");
+
+//----------------------------------------------------------------------------------------
