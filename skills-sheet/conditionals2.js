@@ -74,14 +74,25 @@
 
 // 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
 
-var num = -103
-if (num < 0) {
-  console.log(1776);
-} else {
-  console.log(1979);
-}
+// var num = -103
+// if (num < 0) {
+//   console.log(1776);
+// } else {
+//   console.log(1979);
+// }
 
 //------------------------------------------------------------------------------
+
+// 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
+
+var number = 100
+if (number === 100) {
+  console.log(100);
+} else if (number === 99) {
+  console.log(99);
+} else {
+  console.log(0);
+}
 
 
 
