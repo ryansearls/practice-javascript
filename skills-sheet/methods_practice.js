@@ -53,10 +53,18 @@
 
 // 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
 
-var number = window.prompt("Enter a number: ");
-if (parseInt(number) < 0) {
-  console.log("That's a negative number");
-}
+// var number = window.prompt("Enter a number: ");
+// if (parseInt(number) < 0) {
+//   console.log("That's a negative number");
+// }
+
+//------------------------------------------------------------------------------
+
+// 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
+
+var number1 = window.prompt("Enter a number: ");
+var number2 = window.prompt("Enter another number: ");
+console.log(parseInt(number1) * parseInt(number2));
 
 //------------------------------------------------------------------------------
 
