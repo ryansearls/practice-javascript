@@ -62,10 +62,17 @@
 
 // 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 
-var number1 = window.prompt("Enter a number: ");
-var number2 = window.prompt("Enter another number: ");
-console.log(parseInt(number1) * parseInt(number2));
+// var number1 = window.prompt("Enter a number: ");
+// var number2 = window.prompt("Enter another number: ");
+// console.log(parseInt(number1) * parseInt(number2));
 
 //------------------------------------------------------------------------------
 
+// 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
+var word = window.prompt("Enter a word: ");
+if (word.length > 5) {
+  console.log("That's a long word");
+}
+
+//------------------------------------------------------------------------------
