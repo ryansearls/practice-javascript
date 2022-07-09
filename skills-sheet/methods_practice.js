@@ -16,8 +16,15 @@
 
 // 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
-var number1 = window.prompt("Enter a number: ");
-var number2 = window.prompt("Enter another number: ");
-console.log(parseInt(number1) + parseInt(number2));
+// var number1 = window.prompt("Enter a number: ");
+// var number2 = window.prompt("Enter another number: ");
+// console.log(parseInt(number1) + parseInt(number2));
 
 //----------------------------------------------------------------------------
+
+// 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+
+var word = window.prompt("Enter a word: ");
+console.log(word.split("").reverse().join(""));
+
+//-----------------------------------------------------------------------------
