@@ -13,3 +13,11 @@
 // }
 
 //---------------------------------------------------------------------------
+
+// 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
+
+var number1 = window.prompt("Enter a number: ");
+var number2 = window.prompt("Enter another number: ");
+console.log(parseInt(number1) + parseInt(number2));
+
+//----------------------------------------------------------------------------
