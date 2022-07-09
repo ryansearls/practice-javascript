@@ -31,7 +31,15 @@
 
 // 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
-var number = window.prompt("Enter a number: ");
-console.log(parseInt(number) * 10);
+// var number = window.prompt("Enter a number: ");
+// console.log(parseInt(number) * 10);
 
 //-----------------------------------------------------------------------------
+
+// 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+// var word1 = window.prompt("Enter a word: ");
+// var word2 = window.prompt("Enter another word: ");
+// console.log(word1.toUpperCase() + " " + word2.toUpperCase());
+
+//------------------------------------------------------------------------------
