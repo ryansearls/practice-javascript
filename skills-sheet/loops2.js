@@ -59,3 +59,11 @@
 // }
 
 //-----------------------------------------------------------------------------
+
+// 7. Write a while loop that prints the numbers 50 to 70.
+
+var num = 50;
+while (num <= 70) {
+  console.log(num);
+  num += 1;
+}
