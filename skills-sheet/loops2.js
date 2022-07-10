@@ -31,10 +31,20 @@
 
 // 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
-var num = 0;
-while (num <= 100) {
-  console.log(num);
-  num += 5;
+// var num = 0;
+// while (num <= 100) {
+//   console.log(num);
+//   num += 5;
+// }
+
+//---------------------------------------------------------------------------
+
+// 5. Write a while loop that prints the number 9000 ten times.
+
+var count = 0;
+while (count < 10) {
+  console.log(9000);
+  count += 1;
 }
 
 //---------------------------------------------------------------------------
