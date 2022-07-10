@@ -82,11 +82,21 @@
 
 // 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
-while (true) {
-  var input = window.prompt("Enter a word: ");
-  if (input.length > 5) {
-    break;
-  }
-}
+// while (true) {
+//   var input = window.prompt("Enter a word: ");
+//   if (input.length > 5) {
+//     break;
+//   }
+// }
 
 //-----------------------------------------------------------------------------------
+
+// 10. Write a while loop that prints the even numbers from 2 to 40.
+
+var num = 2;
+while (num <= 40) {
+  console.log(num);
+  num += 2;
+}
+
+//-------------------------------------------------------------------------------------
