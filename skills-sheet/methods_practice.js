@@ -70,9 +70,9 @@
 
 // 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
-var word = window.prompt("Enter a word: ");
-if (word.length > 5) {
-  console.log("That's a long word");
-}
+// var word = window.prompt("Enter a word: ");
+// if (word.length > 5) {
+//   console.log("That's a long word");
+// }
 
 //------------------------------------------------------------------------------
