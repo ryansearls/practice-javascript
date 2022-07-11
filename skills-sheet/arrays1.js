@@ -57,8 +57,16 @@
 
 // 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
-var strings = ["black", "white"];
-strings.push("green");
-console.log(strings);
+// var strings = ["black", "white"];
+// strings.push("green");
+// console.log(strings);
+
+//-----------------------------------------------------------------------------------------
+
+// 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
+
+var numbers = [3, 4, 24, 3, 1];
+numbers[0] = numbers[0] * 10;
+console.log(numbers);
 
 //-----------------------------------------------------------------------------------------
