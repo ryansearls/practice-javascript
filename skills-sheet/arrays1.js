@@ -38,8 +38,19 @@
 
 // 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
-var strings = ["hello", "hello", "hello"];
-strings[2] = strings[2].toUpperCase();
-console.log(strings);
+// var strings = ["hello", "hello", "hello"];
+// strings[2] = strings[2].toUpperCase();
+// console.log(strings);
 
 //-------------------------------------------------------------------------------------
+
+// 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
+
+var names = ["ryan", "jim", "mel"];
+index = 0;
+while (index < names.length) {
+  console.log(names[index]);
+  index += 1;
+}
+
+//----------------------------------------------------------------------------------------
