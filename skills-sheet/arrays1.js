@@ -46,11 +46,19 @@
 
 // 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
-var names = ["ryan", "jim", "mel"];
-index = 0;
-while (index < names.length) {
-  console.log(names[index]);
-  index += 1;
-}
+// var names = ["ryan", "jim", "mel"];
+// index = 0;
+// while (index < names.length) {
+//   console.log(names[index]);
+//   index += 1;
+// }
 
 //----------------------------------------------------------------------------------------
+
+// 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
+
+var strings = ["black", "white"];
+strings.push("green");
+console.log(strings);
+
+//-----------------------------------------------------------------------------------------
