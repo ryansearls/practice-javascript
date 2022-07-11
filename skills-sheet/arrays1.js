@@ -17,11 +17,21 @@
 
 // 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
-var numbers = [1,2,3,4,5];
-index = 0;
-while (index < numbers.length) {
-  console.log(numbers[index]);
-  index += 1;
-}
+// var numbers = [1,2,3,4,5];
+// index = 0;
+// while (index < numbers.length) {
+//   console.log(numbers[index]);
+//   index += 1;
+// }
 
 //---------------------------------------------------------------------------------
+
+// 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+
+var numbers = [3];
+numbers.push(12);
+numbers.push(2);
+numbers.push(7);
+console.log(numbers);
+
+//-------------------------------------------------------------------------------------
