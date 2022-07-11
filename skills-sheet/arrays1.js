@@ -28,10 +28,18 @@
 
 // 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
-var numbers = [3];
-numbers.push(12);
-numbers.push(2);
-numbers.push(7);
-console.log(numbers);
+// var numbers = [3];
+// numbers.push(12);
+// numbers.push(2);
+// numbers.push(7);
+// console.log(numbers);
+
+//-------------------------------------------------------------------------------------
+
+// 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+
+var strings = ["hello", "hello", "hello"];
+strings[2] = strings[2].toUpperCase();
+console.log(strings);
 
 //-------------------------------------------------------------------------------------
