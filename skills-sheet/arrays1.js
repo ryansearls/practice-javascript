@@ -84,8 +84,8 @@
 
 // 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
 
-var countries = ["France", "Korea", "Brazil"];
-countries.push("Ireland");
-console.log(countries);
+// var countries = ["France", "Korea", "Brazil"];
+// countries.push("Ireland");
+// console.log(countries);
 
 //------------------------------------------------------------------------------------------
