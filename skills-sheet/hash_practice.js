@@ -38,11 +38,17 @@
 
 // 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
 
-var books = [
-  { title: "Reality is Broken", author: "Jane McGonigal" },
-  { title: "Code", author: "Charles Petzlod" },
-  { title: "The Humane Interface", author: "Jef Raskin" },
-];
-console.log(books[2]["author"]);
+// var books = [
+//   { title: "Reality is Broken", author: "Jane McGonigal" },
+//   { title: "Code", author: "Charles Petzlod" },
+//   { title: "The Humane Interface", author: "Jef Raskin" },
+// ];
+// console.log(books[2]["author"]);
 
 //-------------------------------------------------------------------------------------
+
+// 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
+
+var capitals = { California: "Sacremento", Illinois: "Springfield", "New York": "Albany" };
+capitals["Minnesota"] = "St. Paul";
+console.log(capitals);
