@@ -28,10 +28,21 @@
 
 // 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
-var book = { title: "Science Book", author: "Jesse Anderson", pages: 410, language: "English" };
-console.log(book["title"]);
-console.log(book.author);
-console.log(book.pages);
-console.log(book.language);
+// var book = { title: "Science Book", author: "Jesse Anderson", pages: 410, language: "English" };
+// console.log(book["title"]);
+// console.log(book.author);
+// console.log(book.pages);
+// console.log(book.language);
 
 //-----------------------------------------------------------------------------------
+
+// 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
+
+var books = [
+  { title: "Reality is Broken", author: "Jane McGonigal" },
+  { title: "Code", author: "Charles Petzlod" },
+  { title: "The Humane Interface", author: "Jef Raskin" },
+];
+console.log(books[2]["author"]);
+
+//-------------------------------------------------------------------------------------
