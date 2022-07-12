@@ -57,9 +57,20 @@
 
 // 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 
-var laptop = { brand: "Apple", model: "MacBook Air", year: 2014 };
-console.log(laptop.brand);
-console.log(laptop.model);
-console.log(laptop["year"]);
+// var laptop = { brand: "Apple", model: "MacBook Air", year: 2014 };
+// console.log(laptop.brand);
+// console.log(laptop.model);
+// console.log(laptop["year"]);
 
 //----------------------------------------------------------------------------------------
+
+// 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
+
+var laptops = [
+  { brand: "Microsoft", model: "Surface" },
+  { brand: "Apple", model: "MacBook Pro" },
+  { brand: "Dell", model: "XPS 13" },
+];
+console.log(laptops[1].model);
+
+//-----------------------------------------------------------------------------------------
