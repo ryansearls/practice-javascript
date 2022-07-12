@@ -77,8 +77,17 @@
 
 // 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
-var dictionary = { bad: "of poor quality or a low standard", mad: "very angry" };
-dictionary["smell"] = "the faculty or power of perceiving odors or scents by means of the organs in the nose.";
-console.log(dictionary);
+// var dictionary = { bad: "of poor quality or a low standard", mad: "very angry" };
+// dictionary["smell"] = "the faculty or power of perceiving odors or scents by means of the organs in the nose.";
+// console.log(dictionary);
 
 //-----------------------------------------------------------------------------------------
+
+// 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+var shirt = { brand: "Hanes", color: "white", size: "large" };
+console.log(shirt.brand);
+console.log(shirt["color"]);
+console.log(shirt.size);
+
+//------------------------------------------------------------------------------------------
