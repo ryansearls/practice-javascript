@@ -55,9 +55,18 @@
 
 // 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
-function convertToString(number) {
-  return number.toString();
-}
-console.log(convertToString(4));
+// function convertToString(number) {
+//   return number.toString();
+// }
+// console.log(convertToString(4));
 
 //------------------------------------------------------------------------------------------------------
+
+// 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+
+function repeatString(string) {
+  return string + string + string + string + string;
+}
+console.log(repeatString("bob"));
+
+//-----------------------------------------------------------------------------------------------------
