@@ -10,9 +10,18 @@
 
 // 2. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
 
-function upper(string) {
-  return string.toUpperCase();
+// function upper(string) {
+//   return string.toUpperCase();
+// }
+// console.log(upper("hello"));
+
+//-----------------------------------------------------------------------------------------------
+
+// 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
+
+function difference(num1, num2) {
+  return num1 - num2;
 }
-console.log(upper("hello"));
+console.log(difference(3,2));
 
 //-----------------------------------------------------------------------------------------------
