@@ -19,9 +19,17 @@
 
 // 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
-function difference(num1, num2) {
-  return num1 - num2;
-}
-console.log(difference(3,2));
+// function difference(num1, num2) {
+//   return num1 - num2;
+// }
+// console.log(difference(3,2));
 
 //-----------------------------------------------------------------------------------------------
+
+// 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+function square(number) {
+  return number * number;
+}
+console.log(square(7));
+
+//------------------------------------------------------------------------------------------------
