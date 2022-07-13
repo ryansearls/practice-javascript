@@ -85,9 +85,9 @@
 
 // 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
-var shirt = { brand: "Hanes", color: "white", size: "large" };
-console.log(shirt.brand);
-console.log(shirt["color"]);
-console.log(shirt.size);
+// var shirt = { brand: "Hanes", color: "white", size: "large" };
+// console.log(shirt.brand);
+// console.log(shirt["color"]);
+// console.log(shirt.size);
 
 //------------------------------------------------------------------------------------------
