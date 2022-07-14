@@ -91,9 +91,26 @@
 // 8. Start with an array of strings and create a new array with each string's first letter only.
 //    For example, ["hello", "goodbye"] becomes ["h", "g"].
 
-var array = ["hello", "goodbye"];
-var newArray = [];
-array.forEach(function (word) {
-  newArray.push(word[0]);
+// var array = ["hello", "goodbye"];
+// var newArray = [];
+// array.forEach(function (word) {
+//   newArray.push(word[0]);
+// });
+// console.log(newArray);
+
+//------------------------------------------------------------------------------------------------
+
+// 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
+//    For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+
+var people = [
+  { name: "Alice", age: 27 },
+  { name: "Blane", age: 16 },
+];
+var doubleAge = [];
+people.forEach(function (person) {
+  doubleAge.push(person.age * 2);
 });
-console.log(newArray);
+console.log(doubleAge);
+
+//------------------------------------------------------------------------------------------------
