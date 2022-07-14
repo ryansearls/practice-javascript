@@ -103,14 +103,25 @@
 // 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 //    For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
 
-var people = [
-  { name: "Alice", age: 27 },
-  { name: "Blane", age: 16 },
-];
-var doubleAge = [];
-people.forEach(function (person) {
-  doubleAge.push(person.age * 2);
+// var people = [
+//   { name: "Alice", age: 27 },
+//   { name: "Blane", age: 16 },
+// ];
+// var doubleAge = [];
+// people.forEach(function (person) {
+//   doubleAge.push(person.age * 2);
+// });
+// console.log(doubleAge);
+
+//------------------------------------------------------------------------------------------------
+
+// 10. Start with an array of numbers and create a new array with each number converted into a string.
+//    For example, [1, 2, 3] becomes ["1", "2", "3"].
+var numbers = [1,2,3];
+var newNumbers = [];
+numbers.forEach(function (number) {
+  newNumbers.push(number.toString());
 });
-console.log(doubleAge);
+console.log(newNumbers);
 
 //------------------------------------------------------------------------------------------------
