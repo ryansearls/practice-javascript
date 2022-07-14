@@ -79,9 +79,21 @@
 // 7. Start with an array of numbers and create a new array with each number divided by 2.
 //    For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
 
-var numbers = [1,2,3];
-var newNumbers = [];
-numbers.forEach(function (number) {
-  newNumbers.push(number / 2.0);
+// var numbers = [1,2,3];
+// var newNumbers = [];
+// numbers.forEach(function (number) {
+//   newNumbers.push(number / 2.0);
+// });
+// console.log(newNumbers);
+
+//-----------------------------------------------------------------------------------------------
+
+// 8. Start with an array of strings and create a new array with each string's first letter only.
+//    For example, ["hello", "goodbye"] becomes ["h", "g"].
+
+var array = ["hello", "goodbye"];
+var newArray = [];
+array.forEach(function (word) {
+  newArray.push(word[0]);
 });
-console.log(newNumbers);
+console.log(newArray);
