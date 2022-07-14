@@ -40,9 +40,21 @@
 // 4. Start with an array of numbers and create a new array with each number plus 7.
 //    For example, [1, 2, 3] becomes [8, 9, 10].
 
-var numbers = [1, 2, 3];
-var newNumbers = [];
-numbers.forEach(function (number) {
-  newNumbers.push(number + 7);
+// var numbers = [1, 2, 3];
+// var newNumbers = [];
+// numbers.forEach(function (number) {
+//   newNumbers.push(number + 7);
+// });
+// console.log(newNumbers);
+
+//---------------------------------------------------------------------------------------------
+
+// 5. Start with an array of strings and create a new array with each string's length.
+//    For example, ["hello", "goodbye"] becomes [5, 7].
+
+var words = ["hello", "goodbye"];
+var lengths = [];
+words.forEach(function (word) {
+  lengths.push(word.length);
 });
-console.log(newNumbers);
+console.log(lengths);
