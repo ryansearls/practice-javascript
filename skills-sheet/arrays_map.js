@@ -64,14 +64,24 @@
 // 6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 //    For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 
-var people = [
-  { name: "Alice", age: 27 },
-  { name: "Blane", age: 16 },
-];
-var ages = [];
-people.forEach(function (person) {
-  ages.push(person.age);
-});
-console.log(ages);
+// var people = [
+//   { name: "Alice", age: 27 },
+//   { name: "Blane", age: 16 },
+// ];
+// var ages = [];
+// people.forEach(function (person) {
+//   ages.push(person.age);
+// });
+// console.log(ages);
 
 //----------------------------------------------------------------------------------------------
+
+// 7. Start with an array of numbers and create a new array with each number divided by 2.
+//    For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+
+var numbers = [1,2,3];
+var newNumbers = [];
+numbers.forEach(function (number) {
+  newNumbers.push(number / 2.0);
+});
+console.log(newNumbers);
