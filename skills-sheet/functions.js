@@ -82,9 +82,9 @@
 
 // 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
-function convertNumber(number) {
-  return number * 10 + 30;
-}
-console.log(convertNumber(7));
+// function convertNumber(number) {
+//   return number * 10 + 30;
+// }
+// console.log(convertNumber(7));
 
 //----------------------------------------------------------------------------------------------------
