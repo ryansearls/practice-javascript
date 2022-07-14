@@ -52,9 +52,26 @@
 // 5. Start with an array of strings and create a new array with each string's length.
 //    For example, ["hello", "goodbye"] becomes [5, 7].
 
-var words = ["hello", "goodbye"];
-var lengths = [];
-words.forEach(function (word) {
-  lengths.push(word.length);
+// var words = ["hello", "goodbye"];
+// var lengths = [];
+// words.forEach(function (word) {
+//   lengths.push(word.length);
+// });
+// console.log(lengths);
+
+//----------------------------------------------------------------------------------------------
+
+// 6. Start with an array of hashes and create a new array of number values from each hash's :age key.
+//    For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
+
+var people = [
+  { name: "Alice", age: 27 },
+  { name: "Blane", age: 16 },
+];
+var ages = [];
+people.forEach(function (person) {
+  ages.push(person.age);
 });
-console.log(lengths);
+console.log(ages);
+
+//----------------------------------------------------------------------------------------------
