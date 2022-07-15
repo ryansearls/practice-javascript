@@ -103,3 +103,17 @@
 // console.log(newNumbers);
 
 //----------------------------------------------------------------------------------------------
+
+//  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
+//     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
+
+// var words = ["big", "little", "good", "bad"];
+// var noBs = [];
+// words.forEach(function (word) {
+//   if (word[0] !== 'b') {
+//     noBs.push(word);
+//   }
+// });
+// console.log(noBs);
+
+//-----------------------------------------------------------------------------------------------
