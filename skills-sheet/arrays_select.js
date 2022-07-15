@@ -15,11 +15,31 @@
 //  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 //     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
 
-var strings = ["winner", "winner", "chicken", "dinner"];
-var wStrings = [];
-strings.forEach(function (string) {
-  if (string[0] === 'w') {
-    wStrings.push(string);
+// var strings = ["winner", "winner", "chicken", "dinner"];
+// var wStrings = [];
+// strings.forEach(function (string) {
+//   if (string[0] === 'w') {
+//     wStrings.push(string);
+//   }
+// });
+// console.log(wStrings);
+
+//-------------------------------------------------------------------------------------------
+
+//  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
+//     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
+
+var items = [
+  { name: "chair", price: 100 },
+  { name: "pencil", price: 1 },
+  { name: "book", price: 4 },
+];
+var exspensiveItems = [];
+items.forEach(function (item) {
+  if (item.price > 5) {
+    exspensiveItems.push(item);
   }
 });
-console.log(wStrings);
+console.log(exspensiveItems);
+
+//-----------------------------------------------------------------------------------------------
