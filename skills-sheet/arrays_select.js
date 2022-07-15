@@ -120,17 +120,31 @@
 
 //  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
-var items = [
-  { name: "chair", price: 100 },
-  { name: "pencil", price: 1 },
-  { name: "book", price: 4 },
-];
-var lessThan10 = [];
-items.forEach(function (item) {
-  if (item.price < 10) {
-    lessThan10.push(item);
-  }
-});
-console.log(lessThan10);
+// var items = [
+//   { name: "chair", price: 100 },
+//   { name: "pencil", price: 1 },
+//   { name: "book", price: 4 },
+// ];
+// var lessThan10 = [];
+// items.forEach(function (item) {
+//   if (item.price < 10) {
+//     lessThan10.push(item);
+//   }
+// });
+// console.log(lessThan10);
 
 //------------------------------------------------------------------------------------------------
+
+// 10. Start with an array of numbers and create a new array with only the odd numbers.
+//     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
+
+var numbers = [2, 4, 5, 1, 8, 9, 7];
+var newNumbers = [];
+numbers.forEach(function (number) {
+  if (number % 2 === 1) {
+    newNumbers.push(number);
+  }
+});
+console.log(newNumbers);
+
+//--------------------------------------------------------------------------------------------------
