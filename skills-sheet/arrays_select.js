@@ -75,15 +75,31 @@
 //  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
 
-var things = [
-  { name: "chair", price: 100 },
-  { name: "pencil", price: 1 },
-  { name: "book", price: 4 },
-];
-var shortNames = [];
-things.forEach(function (thing) {
-  if (thing.name.length < 6) {
-    shortNames.push(thing);
-  }
-});
-console.log(shortNames);
+// var things = [
+//   { name: "chair", price: 100 },
+//   { name: "pencil", price: 1 },
+//   { name: "book", price: 4 },
+// ];
+// var shortNames = [];
+// things.forEach(function (thing) {
+//   if (thing.name.length < 6) {
+//     shortNames.push(thing);
+//   }
+// });
+// console.log(shortNames);
+
+//-----------------------------------------------------------------------------------------------
+
+//  7. Start with an array of numbers and create a new array with only the numbers greater than or equal to 23.
+//     For example, [8, 23, 0, 44, 1980, 3] becomes [23, 44, 1980].
+
+// var numbers = [8, 23, 0, 44, 1980, 3];
+// var newNumbers = [];
+// numbers.forEach(function (number) {
+//   if (number >= 23) {
+//     newNumbers.push(number);
+//   }
+// });
+// console.log(newNumbers);
+
+//----------------------------------------------------------------------------------------------
