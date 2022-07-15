@@ -61,13 +61,29 @@
 //  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 //     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
 
-var words = ["a", "man", "a", "plan", "a", "canal", "panama"];
-var shortWords = [];
-words.forEach(function (word) {
-  if (word.length < 4) {
-    shortWords.push(word);
-  }
-});
-console.log(shortWords);
+// var words = ["a", "man", "a", "plan", "a", "canal", "panama"];
+// var shortWords = [];
+// words.forEach(function (word) {
+//   if (word.length < 4) {
+//     shortWords.push(word);
+//   }
+// });
+// console.log(shortWords);
 
 //------------------------------------------------------------------------------------------------
+
+//  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
+//     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
+
+var things = [
+  { name: "chair", price: 100 },
+  { name: "pencil", price: 1 },
+  { name: "book", price: 4 },
+];
+var shortNames = [];
+things.forEach(function (thing) {
+  if (thing.name.length < 6) {
+    shortNames.push(thing);
+  }
+});
+console.log(shortNames);
