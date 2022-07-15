@@ -117,3 +117,20 @@
 // console.log(noBs);
 
 //-----------------------------------------------------------------------------------------------
+
+//  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
+//     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
+var items = [
+  { name: "chair", price: 100 },
+  { name: "pencil", price: 1 },
+  { name: "book", price: 4 },
+];
+var lessThan10 = [];
+items.forEach(function (item) {
+  if (item.price < 10) {
+    lessThan10.push(item);
+  }
+});
+console.log(lessThan10);
+
+//------------------------------------------------------------------------------------------------
