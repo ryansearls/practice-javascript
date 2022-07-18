@@ -85,11 +85,23 @@
 //  7. Start with an array of numbers and compute product of all the numbers.
 //     For example, [5, 10, 8, 3] becomes 1200.
 
-var numbers = [5, 10, 8, 3];
-var product = 1;
-numbers.forEach(function (number) {
-  product *= number;
+// var numbers = [5, 10, 8, 3];
+// var product = 1;
+// numbers.forEach(function (number) {
+//   product *= number;
+// });
+// console.log(product);
+
+//-------------------------------------------------------------------------------------------------
+
+//  8. Start with an array of strings and combine them all into a single string, separated by dashes.
+//     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
+
+var strings = ["volleyball", "basketball", "badminton"];
+var newString = '';
+strings.forEach(function (string) {
+  newString += string + '-';
 });
-console.log(product);
+console.log(newString);
 
 //-------------------------------------------------------------------------------------------------
