@@ -55,11 +55,27 @@
 //  5. Start with an array of strings and compute the total length of all the strings.
 //     For example, ["volleyball", "basketball", "badminton"] becomes 29.
 
-var words = ["volleyball", "basketball", "badminton"];
-var total = 0;
-words.forEach(function (word) {
-  total += word.length;
-})
-console.log(total);
+// var words = ["volleyball", "basketball", "badminton"];
+// var total = 0;
+// words.forEach(function (word) {
+//   total += word.length;
+// })
+// console.log(total);
 
 //----------------------------------------------------------------------------------------------
+
+//  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
+//     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
+
+var items = [
+  { name: "chair", price: 100 },
+  { name: "pencil", price: 1 },
+  { name: "book", price: 4 },
+];
+var cheapItem = items[0];
+items.forEach(function (item) {
+  if (item.price < cheapItem.price) {
+    cheapItem = item;
+  }
+});
+console.log(cheapItem);
