@@ -67,15 +67,29 @@
 //  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
 
-var items = [
-  { name: "chair", price: 100 },
-  { name: "pencil", price: 1 },
-  { name: "book", price: 4 },
-];
-var cheapItem = items[0];
-items.forEach(function (item) {
-  if (item.price < cheapItem.price) {
-    cheapItem = item;
-  }
+// var items = [
+//   { name: "chair", price: 100 },
+//   { name: "pencil", price: 1 },
+//   { name: "book", price: 4 },
+// ];
+// var cheapItem = items[0];
+// items.forEach(function (item) {
+//   if (item.price < cheapItem.price) {
+//     cheapItem = item;
+//   }
+// });
+// console.log(cheapItem);
+
+//-------------------------------------------------------------------------------------------------
+
+//  7. Start with an array of numbers and compute product of all the numbers.
+//     For example, [5, 10, 8, 3] becomes 1200.
+
+var numbers = [5, 10, 8, 3];
+var product = 1;
+numbers.forEach(function (number) {
+  product *= number;
 });
-console.log(cheapItem);
+console.log(product);
+
+//-------------------------------------------------------------------------------------------------
