@@ -51,3 +51,15 @@
 // console.log(min);
 
 //-------------------------------------------------------------------------------------------
+
+//  5. Start with an array of strings and compute the total length of all the strings.
+//     For example, ["volleyball", "basketball", "badminton"] becomes 29.
+
+var words = ["volleyball", "basketball", "badminton"];
+var total = 0;
+words.forEach(function (word) {
+  total += word.length;
+})
+console.log(total);
+
+//----------------------------------------------------------------------------------------------
