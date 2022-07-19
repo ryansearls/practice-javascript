@@ -97,11 +97,29 @@
 //  8. Start with an array of strings and combine them all into a single string, separated by dashes.
 //     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
 
-var strings = ["volleyball", "basketball", "badminton"];
-var newString = '';
-strings.forEach(function (string) {
-  newString += string + '-';
-});
-console.log(newString);
+// var strings = ["volleyball", "basketball", "badminton"];
+// var newString = '';
+// strings.forEach(function (string) {
+//   newString += string + '-';
+// });
+// console.log(newString);
 
 //-------------------------------------------------------------------------------------------------
+
+//  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
+//     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
+
+var products = [
+  { name: "chair", price: 100 },
+  { name: "pencil", price: 1 },
+  { name: "book", price: 4 },
+];
+var shortestName = products[0];
+products.forEach(function (product) {
+  if (product.name.length < shortestName.name.length) {
+    shortestName = product;
+  }
+});
+console.log(shortestName);
+
+//-----------------------------------------------------------------------------------------------------
