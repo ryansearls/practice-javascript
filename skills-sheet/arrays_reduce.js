@@ -127,13 +127,13 @@
 // 10. Start with an array of numbers and compute the maximum number.
 //     For example, [5, 10, 8, 3] becomes 10.
 
-var numbers = [5, 10, 8, 3];
-var maxNumber = numbers[0];
-numbers.forEach(function (number) {
-  if (number > maxNumber) {
-    maxNumber = number;
-  }
-});
-console.log(maxNumber);
+// var numbers = [5, 10, 8, 3];
+// var maxNumber = numbers[0];
+// numbers.forEach(function (number) {
+//   if (number > maxNumber) {
+//     maxNumber = number;
+//   }
+// });
+// console.log(maxNumber);
 
 //------------------------------------------------------------------------------------------------------
