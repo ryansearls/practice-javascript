@@ -112,22 +112,46 @@
 //  8. Combine data from a hash with names and prices and an array of hashes with names, colors, and weights to make a new hash.
 //     For example, {"chair" => 75, "book" => 15} and [{name: "chair", color: "red", weight: 10}, {name: "book", color: "black", weight: 1}] becomes {"chair" => {price: 75, color: "red", weight: 10}, "book" => {price: 15, color: "black", weight: 1}}.
 
-var priceObject = { chair: 75, book: 15 };
-var items = [
-  { name: "chair", color: "red", weight: 10 },
-  { name: "book", color: "black", weight: 1 },
-];
-var combinedObject = {};
-var index = 0;
-while (index < items.length) {
-  var item = items[index];
-  var name = item.name;
-  var color = item.color;
-  var weight = item.weight;
-  var price = priceObject[name];
-  combinedObject[name] = { price: price, color: color, weight: weight };
-  index += 1;
-}
-console.log(combinedObject);
+// var priceObject = { chair: 75, book: 15 };
+// var items = [
+//   { name: "chair", color: "red", weight: 10 },
+//   { name: "book", color: "black", weight: 1 },
+// ];
+// var combinedObject = {};
+// var index = 0;
+// while (index < items.length) {
+//   var item = items[index];
+//   var name = item.name;
+//   var color = item.color;
+//   var weight = item.weight;
+//   var price = priceObject[name];
+//   combinedObject[name] = { price: price, color: color, weight: weight };
+//   index += 1;
+// }
+// console.log(combinedObject);
 
 //-----------------------------------------------------------------------------------------------
+
+//  9. Convert an array of hashes into a hash of arrays, using the author as keys and the titles as values.
+//     For example, [{author: "Jeff Smith", title: "Bone"}, {author: "George Orwell", title: "1984"}, {author: "Jeff Smith", title: "RASL"}] becomes {"Jeff Smith" => ["Bone", "RASL"], "George Orwell" => ["1984"]}.
+
+var books = [
+  { author: "Jeff Smith", title: "Bone" },
+  { author: "George Orwell", title: "1984" },
+  { author: "Jeff Smith", title: "RASL" },
+];
+var booksObject = {};
+var index = 0;
+while (index < books.length) {
+  var book = books[index];
+  var author = book.author;
+  var title = book.title;
+  if (booksObject[author] === undefined) {
+    booksObject[author] = [];
+  }
+  booksObject[author].push(title);
+  index += 1;
+}
+console.log(booksObject);
+
+//---------------------------------------------------------------------------------------------
