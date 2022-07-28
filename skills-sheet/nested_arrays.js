@@ -113,18 +113,38 @@
 //  6. Use a nested loop with two arrays of numbers to create a new array of the sums of each combination of numbers.
 //     For example, [1, 2] and [6, 7, 8] becomes [7, 8, 9, 8, 9, 10].
 
-var numbers1 = [1, 2];
-var numbers2 = [6, 7, 8];
-var newNumbers = [];
-var index1 = 0;
-while (index1 < numbers1.length) {
-  var firstNumber = numbers1[index1];
-  var index2 = 0;
-  while (index2 < numbers2.length) {
-    var secondNumber = numbers2[index2];
-    newNumbers.push(firstNumber + secondNumber);
-    index2 += 1;
-  }
-  index1 += 1;
-}
-console.log(newNumbers);
+// var numbers1 = [1, 2];
+// var numbers2 = [6, 7, 8];
+// var newNumbers = [];
+// var index1 = 0;
+// while (index1 < numbers1.length) {
+//   var firstNumber = numbers1[index1];
+//   var index2 = 0;
+//   while (index2 < numbers2.length) {
+//     var secondNumber = numbers2[index2];
+//     newNumbers.push(firstNumber + secondNumber);
+//     index2 += 1;
+//   }
+//   index1 += 1;
+// }
+// console.log(newNumbers);
+
+//---------------------------------------------------------------------------------
+
+//  7. Use a nested loop with an array of numbers to compute an array with every combination of products from each number.
+//     For example, [2, 8, 3] becomes [4, 16, 6, 16, 64, 24, 6, 24, 9].
+
+// var numbers = [2, 8, 3];
+// var everyCombo = [];
+// var index1 = 0;
+// while (index1 < numbers.length) {
+//   var index2 = 0;
+//   while (index2 < numbers.length) {
+//     everyCombo.push(numbers[index1] * numbers[index2]);
+//     index2 ++;
+//   }
+//   index1 ++;
+// }
+// console.log(everyCombo);
+
+//---------------------------------------------------------------------------------
