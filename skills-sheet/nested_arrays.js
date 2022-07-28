@@ -148,3 +148,27 @@
 // console.log(everyCombo);
 
 //---------------------------------------------------------------------------------
+
+//  8. Use a nested loop to find the largest sum of any two different numbers within an array.
+//     For example, [1, 8, 3, 10] becomes 18.
+
+var numbers = [1, 8, 3, 10];
+var max = numbers[0] + numbers[1];
+var index1 = 0;
+while (index1 < numbers.length) {
+  var index2 = 0;
+  while (index2 < numbers.length) {
+    if (index1 !== index2) {
+      var sum = numbers[index1] + numbers[index2];
+      if (sum > max) {
+        max = sum;
+      }
+    }
+    index2 ++;
+  }
+  index1 ++;
+}
+console.log(max);
+
+//----------------------------------------------------------------------------
+
