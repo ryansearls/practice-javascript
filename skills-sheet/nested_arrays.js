@@ -89,23 +89,42 @@
 //  5. Use a nested loop to compute the sum of all the numbers in an array of number pairs.
 //     For example, [[1, 3], [8, 9], [2, 16]] becomes 39.
 
-var numberPairs = [
-  [1, 3],
-  [8, 9],
-  [2, 16],
-];
-var total = 0;
+// var numberPairs = [
+//   [1, 3],
+//   [8, 9],
+//   [2, 16],
+// ];
+// var total = 0;
+// var index1 = 0;
+// while (index1 < numberPairs.length) {
+//   var numberPair = numberPairs[index1];
+//   var index2 = 0;
+//   while (index2 < numberPair.length) {
+//     var number = numberPair[index2];
+//     total += number;
+//     index2 += 1;
+//   }
+//   index1 += 1;
+// }
+// console.log(total);
+
+//------------------------------------------------------------------------------
+
+//  6. Use a nested loop with two arrays of numbers to create a new array of the sums of each combination of numbers.
+//     For example, [1, 2] and [6, 7, 8] becomes [7, 8, 9, 8, 9, 10].
+
+var numbers1 = [1, 2];
+var numbers2 = [6, 7, 8];
+var newNumbers = [];
 var index1 = 0;
-while (index1 < numberPairs.length) {
-  var numberPair = numberPairs[index1];
+while (index1 < numbers1.length) {
+  var firstNumber = numbers1[index1];
   var index2 = 0;
-  while (index2 < numberPair.length) {
-    var number = numberPair[index2];
-    total += number;
+  while (index2 < numbers2.length) {
+    var secondNumber = numbers2[index2];
+    newNumbers.push(firstNumber + secondNumber);
     index2 += 1;
   }
   index1 += 1;
 }
-console.log(total);
-
-//------------------------------------------------------------------------------
+console.log(newNumbers);
