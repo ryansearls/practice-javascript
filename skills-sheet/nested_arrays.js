@@ -25,18 +25,38 @@
 //  2. Use a nested loop with two arrays of strings to create a new array of strings with each string combined.
 //     For example, ["a", "b", "c"] and ["d", "e", "f", "g"] becomes ["ad", "ae", "af", "ag", "bd", "be", "bf", "bg", "cd", "ce", "cf", "cg"].
 
-var letters1 = ["a", "b", "c"];
-var letters2 = ["d", "e", "f", "g"];
-var newArray = [];
+// var letters1 = ["a", "b", "c"];
+// var letters2 = ["d", "e", "f", "g"];
+// var newArray = [];
+// var index1 = 0;
+// while (index1 < letters1.length) {
+//   var index2 = 0;
+//   while (index2 < letters2.length) {
+//     newArray.push(letters1[index1] + letters2[index2]);
+//     index2 += 1;
+//   }
+//   index1 += 1;
+// }
+// console.log(newArray);
+
+//--------------------------------------------------------------------------
+
+//  3. Use a nested loop with one array of strings to create a new array that contains every combination of each string with every other string in the array.
+//     For example, ["a", "b", "c", "d"] becomes ["ab", "ac", "ad", "ba", "bc", "bd", "ca", "cb", "cd", "da", "db", "dc"].
+
+var letters = ["a", "b", "c", "d"];
+var newLetters = [];
 var index1 = 0;
-while (index1 < letters1.length) {
+while (index1 < letters.length) {
   var index2 = 0;
-  while (index2 < letters2.length) {
-    newArray.push(letters1[index1] + letters2[index2]);
+  while (index2 < letters.length) {
+    if (index1 !== index2) {
+      newLetters.push(letters[index1] + letters[index2]);
+    }
     index2 += 1;
   }
   index1 += 1;
 }
-console.log(newArray);
+console.log(newLetters);
 
 //--------------------------------------------------------------------------
